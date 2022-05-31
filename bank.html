@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bank.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+
+<body>
+    <!-- AOS -->
+  
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+</script>
+
+<script>
+    const hamburger = document.querySelector('.nav-icon');
+const nav = document.querySelector('.nav-item')
+
+hamburger.addEventListener('click', () => {
+    nav.classList.toggle('active')
+    hamburger.classList.toggle('active')
+})
+
+AOS.init();
+</script>
+
+<nav class="nav-wrapper">
+      <div class="nav container">
+        <!-- logo -->
+        <a href="bank.html" class="logo">
+          <img src="/home/yogesh/Downloads/BlockchainBank.jpg" alt="logo">
+        </a>
+        <!-- navigations -->
+        <ul class="nav-item">
+          <li class="nav-list"><a href="#" class="nav-links">Home</a></li>
+          <li class="nav-list"><a href="#" class="nav-links">About</a></li>
+          <li class="nav-list"><a href="#" class="nav-links">Contact</a></li>
+          <li class="nav-list"><a href="#" class="nav-links">Blog</a></li>
+          <li class="nav-list"><a href="#" class="nav-links">Careers</a></li>
+        </ul>
+        <!-- cta btn -->
+        <div class="btn cta-1">
+          <a href="login.html" class="cta-btn">Login</a>
+        </div>
+        <!-- hamburger menu -->
+        <div class="nav-icon">
+          <div></div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-section">
+      <div class="hero">
+        <div class="hero-bg">
+           <picture class="picture">
+            <source media="(max-width: 799px)" srcset="https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/bg-intro-mobile.svg 100w">
+            <source media="(min-width: 800px)" srcset="https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/bg-intro-desktop.svg">
+            <img src="https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/bg-intro-mobile.svg" alt="background">
+          </picture>
+          <img src="https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/master/images/image-mockups.png" class="mockup" alt="mockup">
+        </div>
+        <div class="hero-content container">
+          <h1>Next generation digital banking</h1>
+          <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
+            for spending, saving, budgeting, investing, and much more.</p>
+            <!-- cta btn -->
+        <div class="btn cta-2">
+          <a href="#" class="cta-btn">Request Invite</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="value-section">
+      <div class="desc container">
+        <h1>Why choose Blockchain Bank?</h1>
+        <p>We leverage Open Banking to turn your bank account into your financial hub. Control 
+          your finances like never before.
+        </p>
+      </div>
+      <div class="value-desc container">
+        <div class="value value-1">
+          <img src="https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/icon-online.svg" class="icon" alt="icon">
+          <h3>online banking</h3>
+          <p>Our modern web and mobile applications allow you to keep track of your finances 
+            wherever you are in the world.</p>
+        </div>
+        <div class="value value-2">
+          <img src="
+https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/icon-budgeting.svg" class="icon" alt="icon">
+          <h3> Simple Budgeting</h3>
+          <p>See exactly where your money goes each month. Receive notifications when you’re 
+            close to hitting your limits.</p>
+        </div>
+        <div class="value value-3">
+          <img src="https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/icon-onboarding.svg" class="icon" alt="icon">
+          <h3>Fast Onboarding</h3>
+          <p>We don’t do branches. Open your account in minutes online and start taking control 
+            of your finances right away.</p>
+        </div>
+        <div class="value value-4">
+          <img src="
+https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/icon-api.svg" class="icon" alt="icon">
+          <h3>Open API</h3>
+          <p>Manage your savings, investments, pension, and much more from one account. Tracking 
+            your money has never been easier.</p>
+        </div>   
+      </div>
+    </div>
+
+    <!-- overlay -->
+    <div class="overlay"></div>
+    <!-- end of overlay -->
+    
+    <footer>
+      <div class="footer-items container">
+        <!-- single item -->
+        <div class="ftr-item-1">
+          <div class="ftr-logo">
+            <h1>Blockchain Bank</h1>   
+          </div>
+          <div class="social">
+            <a href="#" title="facebook">
+              <img src="https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/icon-facebook.svg" alt="facebook">
+            </a>
+            <a href="#" title="youtube">
+              <img src="
+https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/icon-youtube.svg" alt="youtube">
+            </a>
+            <a href="#" title="twitter">
+              <img src="
+https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/icon-twitter.svg" alt="twitter">
+            </a>
+            <a href="#" title="pinterest">
+              <img src="https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/icon-pinterest.svg" alt="pinterest">
+            </a>
+            <a href="#" title="instagram">
+              <img src="
+https://raw.githubusercontent.com/FesoQue/Easybank-landing-page/862ba75ea9d9c1f583baea94870720a316cf6659/images/icon-instagram.svg" alt="instagram">
+            </a>
+          </div>
+        </div>
+        <!-- navigations -->
+        <div class="ftr-item-2">
+          <ul class="ftr-nav nav-1">
+            <li class="nav-list"><a href="#">About Us</a></li>
+            <li class="nav-list"><a href="#">Contact</a></li>
+            <li class="nav-list"><a href="#">Blog</a></li>
+          </ul>
+          <ul class="ftr-nav nav-2">
+            <li class="nav-list"><a href="#">Careers</a></li>
+            <li class="nav-list"><a href="#">Support</a></li>
+            <li class="nav-list"><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        
+        <div class="ftr-item-3">
+          <!-- cta btn -->
+        <div class="btn cta-3">
+          <a href="#" class="cta-btn">Request Invite</a>
+        </div>
+        <!-- copyright -->
+        <div class="copyright">
+          <p>Blockchain Bank. all rights reserved <span class="date"></span></p>
+        </div>
+        </div>
+      </div>
+    </footer
+      
+
+</body>
+</html>
