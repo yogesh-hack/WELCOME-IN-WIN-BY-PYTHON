@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+# Welcome to Win By Python Website
 
 You can use the [editor on GitHub](https://github.com/yogesh-hack/my-first-repo/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Codechef Problem Explaination
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+First and Last Problem Code: FIRSTANDLASTSolvedSubmit
+You are given an array A=[A1,A2,…,AN] of length N.
 
-```markdown
-Syntax highlighted code block
+You can right rotate it any number of times (possibly, zero). What is the maximum value of A1+AN you can get?
 
-# Header 1
-## Header 2
-### Header 3
+Note: Right rotating the array [A1,A2,…,AN] once gives the array [AN,A1,A2,…,AN−1]. For example, right rotating [1,2,3] once gives [3,1,2], and right rotating it again gives [2,3,1].
 
-- Bulleted
-- List
+### Input Format
+The first line of input will contain a single integer T, denoting the number of test cases. The description of the test cases follows.
+The first line of each test case contains a single integer N, denoting the length of array A.
+The second line of each test case contains N space-separated integers A1,A2,…,AN — denoting the array A.
+Output Format
+For each test case, output on a new line the maximum value of A1+AN you can get after several right rotations.
 
-1. Numbered
-2. List
+Constraints
+1≤T≤1000
+2≤N≤105
+1≤Ai≤109
+The sum of N across all test cases does not exceed 105
 
-**Bold** and _Italic_ and `Code` text
+### Sample Input 1 
+3
+2
+5 8
+3
+5 10 15
+4
+4 4 4 4
 
-[Link](url) and ![Image](src)
-```
+### Sample Output 1 
+13
+25
+8
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Explanation
+Test case 1: Whether you right rotate the array or not, you will always end up with A1+AN=13.
 
-### Jekyll Themes
+Test case 2: It is optimal to right rotate the array once after which the array becomes [15,5,10] with A1+AN=25.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yogesh-hack/my-first-repo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Test case 3: No matter how much you right rotate the array, you will always obtain  A1+AN=8
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+## Explaination
+
+
+
+
+
+<!-- [Link](url) and ![Image](src) -->
+
